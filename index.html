@@ -1,11 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welkom op de portfolio van Mathias Borgers">
+  <meta name="keywords" content="Portfolio, Mathias Borgers, Contact">
+  <title>Welkom | Portfolio Mathias Borgers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="afbeeldingen/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="afbeeldingen/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="afbeeldingen/favicon-16x16.png">
+<link rel="manifest" href="afbeeldingen//site.webmanifest">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="afbeeldingen/MB-Logo-zwart.png" alt="logo MB" width="30" height="30" class="me-2">
+        Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="over_mij.html">Over mij</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">Cv</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-white text-center d-flex align-items-center" style="background-image: url('afbeeldingen/hero-bg.jpg'); background-size: cover; height: 60vh;">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welkom op mijn Portfolio</h1>
+      <p class="lead">Ontdek mijn werk, vaardigheden en projecten</p>
+      <a href="contact.html" class="btn btn-lg btn-warning mt-3">Neem contact op</a>
+    </div>
+  </header>
+
+  <!-- 3 Column Card Section -->
+  <main class="container mt-5">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="afbeeldingen/gaming.jpg" class="card-img-top" alt="Over mij">
+          <div class="card-body">
+            <h5 class="card-title">Over mij</h5>
+            <p class="card-text">Lees meer over mijn achtergrond, interesses en passie voor technologie.</p>
+            <a href="over_mij.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="afbeeldingen/Nardah_Cooker2.jpg" class="card-img-top" alt="Projecten">
+          <div class="card-body">
+            <h5 class="card-title">Projecten</h5>
+            <p class="card-text">Bekijk de verschillende projecten waar ik aan heb gewerkt en mijn ervaringen.</p>
+            <a href="projects.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="afbeeldingen/programming.jpg" class="card-img-top" alt="Cv">
+          <div class="card-body">
+            <h5 class="card-title">Mijn Cv</h5>
+            <p class="card-text">Bekijk mijn professionele achtergrond en ervaring.</p>
+            <a href="cv.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer bg-light py-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <p class="mb-0"><img src="afbeeldingen/MB-Logo-zwart.png" alt="logo MB" width="30" height="30"> © 2024 Mathias Borgers</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="https://www.facebook.com/mathias.borgers.92/" target="_blank" class="social-icon me-3">
+            <img src="afbeeldingen/facebook-icon.png" alt="Facebook" width="24" height="24">
+          </a>
+          <a href="https://www.instagram.com/mathias.borgers/" target="_blank" class="social-icon me-3">
+            <img src="afbeeldingen/instagram-icon.png" alt="Instagram" width="24" height="24">
+          </a>
+          <a href="https://linkedin.com/in/mathias-borgers-4283762b8/" target="_blank" class="social-icon">
+            <img src="afbeeldingen/linkedin-icon.png" alt="LinkedIn" width="24" height="24">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  
+
 </body>
+
 </html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Een online Portfolio/cv van Mathias Borgers">
+    <meta name="keywords" content="Portfolio, Cv, Mathias Borgers">
+    <title>Contact</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="afbeeldingen/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="afbeeldingen/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="afbeeldingen/favicon-16x16.png">
+    <link rel="manifest" href="afbeeldingen//site.webmanifest">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- Lokale Bootstrap CSS -->
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Responsive Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="afbeeldingen/MB-Logo-zwart.png" alt="logo MB" width="30" height="30" class="me-2">
+                <span>Contact</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="over_mij.html">Over mij</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">Cv</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <!-- Contact Information Section -->
+        <div class="row justify-content-center text-center">
+            <div class="col-12 col-md-8">
+                <h2 class="over_mij">Hoe bereikt u mij?</h2>
+                <p class="contact">Je kan mij bereiken via de volgende kanalen:</p>
+                <ul class="list-unstyled">
+                    <li><strong>Telefoonnummer:</strong> +32 498405069</li>
+                    <li><strong>Email:</strong> <a href="mailto:contact@mathiasborgers.be" class="contact-link">contact@mathiasborgers.be</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mathias-borgers-4283762b8/" target="_blank" class="contact-link">LinkedIn-profiel</a></li>
+                </ul>
+            </div>
+        </div>
+    
+    
+    
+        <!-- Contact Form Section -->
+        <div class="row mt-4 d-flex justify-content-center"> <!-- Voegt centrering toe -->
+            <div class="col-12 col-md-8 col-lg-6">
+                <h2 class="over_mij text-center">Contactformulier</h2>
+                <form action="contact.php" method="post">
+                    <div class="mb-3">
+                        <label for="naam" class="form-label">Naam:</label>
+                        <input type="text" id="naam" name="naam" class="form-control" placeholder="Je naam" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mailadres:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Je e-mailadres" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="onderwerp" class="form-label">Onderwerp:</label>
+                        <input type="text" id="onderwerp" name="onderwerp" class="form-control" placeholder="Onderwerp van je bericht" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="vraag" class="form-label">Je vraag of bericht:</label>
+                        <textarea id="vraag" name="vraag" class="form-control" rows="5" placeholder="Typ hier je vraag of bericht" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit w-100">Verstuur</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+  <!-- Footer -->
+  <footer class="footer bg-light py-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <p class="mb-0"><img src="afbeeldingen/MB-Logo-zwart.png" alt="logo MB" width="30" height="30"> © 2024 Mathias Borgers</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="https://www.facebook.com/mathias.borgers.92/" target="_blank" class="social-icon me-3">
+            <img src="afbeeldingen/facebook-icon.png" alt="Facebook" width="24" height="24">
+          </a>
+          <a href="https://www.instagram.com/mathias.borgers/" target="_blank" class="social-icon me-3">
+            <img src="afbeeldingen/instagram-icon.png" alt="Instagram" width="24" height="24">
+          </a>
+          <a href="https://linkedin.com/in/mathias-borgers-4283762b8/" target="_blank" class="social-icon">
+            <img src="afbeeldingen/linkedin-icon.png" alt="LinkedIn" width="24" height="24">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- Lokale Bootstrap JavaScript -->
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

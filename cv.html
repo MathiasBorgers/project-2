@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Een online Portfolio/cv van Mathias Borgers">
+  <meta name="keywords" content="Portfolio, Cv, Mathias Borgers">
+  <title>Cv</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="afbeeldingen/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="afbeeldingen/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="afbeeldingen/favicon-16x16.png">
+  <link rel="manifest" href="afbeeldingen//site.webmanifest">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Responsive Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="afbeeldingen/MB-Logo-zwart.png" alt="logo MB" width="30" height="30" class="me-2">
+        Cv
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="over_mij.html">Over mij</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" href="cv.html">Cv</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Inhoud van de pagina -->
+  <main class="container mt-5">
+    <div class="row mb-5">
+      <div class="col-md-4 ">
+        <img src="afbeeldingen/ikzelf.png" alt="Foto van mezelf" class="img-fluid rounded" width="200" height="200">
+        <h3>Mathias Borgers</h3>
+      </div>
+      <div class="col-md-8">
+        <h2>Opleiding</h2>
+        <ul>
+          <li><strong>2013:</strong> Diploma mechanische vormgevingstechnieken (TSO)</li>
+          <li><strong>2024-2026:</strong> Graduaat programmeren</li>
+        </ul>
+
+        <h2>Werkervaring</h2>
+        <ul>
+          <li><strong>2013-2023:</strong> CNC-operator bij DAF trucks</li>
+        </ul>
+
+        <h2>Talen</h2>
+        <ul>
+          <li><strong>Nederlands:</strong> Zeer goed</li>
+          <li><strong>Engels:</strong> Zeer goed</li>
+          <li><strong>Frans:</strong> Beperkt</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills Carousel -->
+    <h2 class="text-center">Vaardigheden</h2>
+    <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-around">
+            <div><img src="afbeeldingen/csharp.png" alt="C#" class="img-fluid" style="width: 100px;"><p class="text-center">C#</p></div>
+            <div><img src="afbeeldingen/htmllogo.png" alt="HTML" class="img-fluid" style="width: 100px;"><p class="text-center">HTML</p></div>
+            <div><img src="afbeeldingen/csslogo.png" alt="CSS" class="img-fluid" style="width: 100px;"><p class="text-center">CSS</p></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-around">
+            <div><img src="afbeeldingen/sqllogo.png" alt="SQL" class="img-fluid" style="width: 100px;"><p class="text-center">SQL</p></div>
+            <div><img src="afbeeldingen/bootstraplogo.png" alt="Bootstrap" class="img-fluid" style="width: 100px;"><p class="text-center">Bootstrap</p></div>
+            <div><img src="afbeeldingen/lualogo.png" alt="Lua" class="img-fluid" style="width: 100px;"><p class="text-center">Lua</p></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Vorige</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Volgende</span>
+      </button>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="footer bg-light py-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <p class="mb-0"><img src="afbeeldingen/MB-Logo-zwart.png" alt="logo MB" width="30" height="30"> © 2024 Mathias Borgers</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="https://www.facebook.com/mathias.borgers.92/" target="_blank" class="social-icon me-3">
+            <img src="afbeeldingen/facebook-icon.png" alt="Facebook" width="24" height="24">
+          </a>
+          <a href="https://www.instagram.com/mathias.borgers/" target="_blank" class="social-icon me-3">
+            <img src="afbeeldingen/instagram-icon.png" alt="Instagram" width="24" height="24">
+          </a>
+          <a href="https://linkedin.com/in/mathias-borgers-4283762b8/" target="_blank" class="social-icon">
+            <img src="afbeeldingen/linkedin-icon.png" alt="LinkedIn" width="24" height="24">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript -->
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
