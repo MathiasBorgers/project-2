@@ -167,3 +167,44 @@ form textarea:focus {
         padding-right: 10px;
     }
 }
+/* General body and html styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    background-color: #01070a;
+    color: white;
+}
+
+/* Main content should flexibly take up remaining space */
+main {
+    flex-grow: 1;
+    padding-bottom: 20px; /* Optional: add space above footer */
+}
+
+/* Footer styling - sticky to bottom */
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-top: 1px solid #e9ecef;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Footer social icons */
+.footer .text-md-end {
+    display: flex;
+    justify-content: center; /* Center icons in footer */
+    gap: 15px;
+}
+
+.social-icon img {
+    transition: transform 0.2s;
+}
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Additional styling for animations and other components remains unchanged */
